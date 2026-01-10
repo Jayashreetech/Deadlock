@@ -1,19 +1,15 @@
-/* =====================================================
-   File       : safety.c
+/* File       : safety.c
    Purpose    : Implements the Safety Algorithm of Banker's Algorithm for Deadlock Avoidance
    Author     : Jayashree
    Description:
      This file contains the safety() function which checks whether the system is in a safe state given the allocation matrix, need matrix, and available resources.
-   ===================================================== */
+*/
 
 #include <stdio.h>
 
-/* 
-  Function: print
-  ----------------
-  Prints a 2D matrix of size n x m.
-  
-  Parameters:
+/* Function: print
+   Prints a 2D matrix of size n x m.
+   Parameters:
     x - the matrix to print
     n - number of rows
     m - number of columns
@@ -29,11 +25,8 @@ void print(int x[][10], int n, int m)
     }
 }
 
-/* 
-  Function: safety
-  ----------------
-  Checks whether the system is in a safe state using 
-  the Banker's algorithm.
+/* Function: safety
+  Checks whether the system is in a safe state using the Banker's algorithm.
 
   Parameters:
     A  - Allocation matrix [n x m]
