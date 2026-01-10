@@ -1,4 +1,4 @@
-/*  File       : main.c
+/* File       : main.c
    Purpose    : Main program for Deadlock Avoidance using Banker's Algorithm
    Author     : Jayashree
   
