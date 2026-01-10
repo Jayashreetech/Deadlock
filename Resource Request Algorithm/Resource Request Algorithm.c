@@ -1,19 +1,15 @@
-/* =====================================================
-   File       : resource_request.c
+/* File       : resource_request.c
    Purpose    : Implements the Resource Request Algorithm for Banker's Algorithm
    Author     : Jayashree
    Description:
      This file contains the res_request() function which handles additional resource requests from processes, updates Allocation, Need, and Available matrices and checks for errors.
-   ===================================================== */
+ */
 
 #include <stdio.h>
 #include <stdlib.h> 
 
-/* 
-  Function: res_request
-  --------------------
+/* Function: res_request
   Handles additional resource request for a process.
-
   Parameters:
     A   - Allocation matrix [n x m]
     N   - Need matrix [n x m]
