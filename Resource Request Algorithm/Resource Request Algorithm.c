@@ -7,7 +7,7 @@
    ===================================================== */
 
 #include <stdio.h>
-#include <stdlib.h>  // Needed for exit()
+#include <stdlib.h> 
 
 /* 
   Function: res_request
