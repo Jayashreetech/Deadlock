@@ -1,20 +1,17 @@
-/* =====================================================
-   File       : bankers.c
+/* File       : bankers.c
    Purpose    : Implements the Banker's Algorithm
                 to determine if the system is in a safe state
    Author     : Jayashree
 
    Description:
      This file contains the banker() function which calls the safety() function to determine whether a safe sequence exists and prints it.
-   ===================================================== */
+*/
 
 #include <stdio.h>
 #include "safety.c"  
 
-/* 
-  Function: banker
-  ----------------
-  Implements Banker's algorithm. Calls the safety() function and prints the safe sequence if available.
+/* Function: banker
+   Implements Banker's algorithm. Calls the safety() function and prints the safe sequence if available.
 
   Parameters:
     A - Allocation matrix [n x m]
